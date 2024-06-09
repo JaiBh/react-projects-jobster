@@ -7,6 +7,7 @@ const Stats = () => {
   const { monthlyApplications } = useSelector((store) => store.allJobs);
   useEffect(() => {
     dispatch(showStats());
+    // eslint-disable-next-line
   }, []);
   return (
     <>

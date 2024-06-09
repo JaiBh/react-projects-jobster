@@ -30,7 +30,7 @@ const SearchContainer = () => {
       }, 1000);
     };
   };
-
+  // eslint-disable-next-line
   const optimizedDebounce = useMemo(() => debounce(), []);
 
   const handleSubmit = (e) => {

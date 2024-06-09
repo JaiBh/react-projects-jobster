@@ -44,8 +44,9 @@ const Register = () => {
     if (user) {
       setTimeout(() => {
         navigate("/");
-      }, 3000);
+      }, 2000);
     }
+    // eslint-disable-next-line
   }, [user]);
 
   return (
